@@ -1,27 +1,3 @@
-img.top {
-    position: absolute;
-    width: 23.58px;
-    height: 23.59px;
-    left: 184.1px;
-    top: 40.98px;
-}
-img.middle {
-    position: absolute;
-width: 36.36px;
-height: 36.36px;
-left: 185.45px;
-top: 42.37px;
-}
-img.bottom {
-    position: absolute;
-width: 23.58px;
-height: 23.59px;
-left: 199.68px;
-top: 56.6px;
-}
-h2:after {
-    content: ' \2022';
-}
 button {
     display: block;
     border-radius: 10px;
