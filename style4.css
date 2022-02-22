@@ -1,0 +1,75 @@
+body {
+        margin: 0;
+        max-width: 1510px;
+        font-family:'Raleway', sans-serif ;
+    }
+    .header {
+        height: 140px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #F8EFEF;
+    }
+    .header__social, .header__lorem {
+        margin-left: 170px;
+        padding-top:10px;
+        width: 30%;
+    }
+    .header__contact {
+        margin-right: 170px;
+        margin-top:-100px;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+    .h3 {
+        margin-top: 0;
+    }
+    h3 {
+        margin-top: 60px;
+    }
+    h5 {
+        margin-top: 80px;
+    }
+    .p {
+        margin-top: 100px;
+    }
+    .main {
+        margin-top: 120px;
+    }
+    .main__button {
+        margin-left: 250px;
+        display: flex;
+        justify-content: center;
+        float: left;
+    }
+    .but_one, .but_two, .but_tree {
+        margin-right: 120px;
+    }
+    .main__button, .main__cont, .download {
+        margin-left: 130px;
+    }
+    .main__cont, .download, .but_one {
+        border: 1px solid #C6CBCD;
+    }
+    .main__cont, .download {
+        width: 40%;
+        float: left;
+    }
+    .main__pickture {
+        max-height: 470px;
+        margin-right: 125px;
+        float: right;
+        display: block;
+    }
+    .main__cont {
+        padding-left: 30px;
+    }
+    .download {
+        margin: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 230px;
+        height: 50px;
+        color: #fff;
+        background-color: #EC7979;
+        cursor: pointer;
+        }
