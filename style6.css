@@ -1,0 +1,64 @@
+.up, .down {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    width: 170px;
+    border: 1px solid #EC7979;
+}
+.gray {
+    color: #86878B;
+}
+.mid {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.mid> .one, .two, .three {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #F5F5F5;
+}
+.border {
+    box-sizing: border-box;
+    width: 370px;
+    background: #333333;
+    color: #fff;
+    border: 2px solid #F5F5F5;
+}
+.border:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.rgba {
+    color: rgba(255, 255, 255, 0.5);
+}
+.money {
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+.money> .basic, .optima, .pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gb {
+    box-sizing: border-box;
+    border: 2px solid #000;
+    color: #86878B;
+}
