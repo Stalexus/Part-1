@@ -17,7 +17,7 @@ hr {
     display: flex;
     justify-content: space-around;
 }
-.mid> .one, .two, .three {
+.mid> .mid__one, .mid__two, .mid__three {
     width: 370px;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ h3 {
     display: flex;
     justify-content: space-around;
 }
-.money> .basic, .optima, .pro {
+.money> .money__basic, .money__optima, .money__pro {
     display: flex;
     flex-direction: column;
     justify-content: center;
