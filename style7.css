@@ -1,0 +1,122 @@
+body {
+    max-width: 1510px;
+    font-family:'Raleway', sans-serif ;
+}
+h5 {
+    color: #86878B;
+}
+header {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr {
+    width: 170px;
+    border: 1px solid #EC7979;
+}
+.mid__one, .mid__two, .mid__four {
+    margin-top: 30px;
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.mid__one>h5 {
+    width: 370px;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #E2E2E2;
+    color: #86878B;
+    border-radius: 10px;
+}
+.mid__one__h:after {
+    content: "";
+    position: absolute;
+    border: 20px solid transparent; border-top: 30px solid #E2E2E2;
+    margin-top: 180px;
+    margin-right: 200px;
+}
+img {
+    position: absolute;
+    margin-left: -100px;
+}
+.mid__three {
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    background-image: url(img/image.png);
+}
+.mid__three_h {
+    color: #FFF;
+}
+.mid__three_hr {
+    border: 1px solid #FFF;
+}
+.mid__three_but {
+    width: 370px;
+    height: 60px;
+    background: transparent;
+    cursor: pointer;
+    color: #FFF;
+    border: 2px solid #FFFFFF;
+    font-size: 18px;
+}
+.mid__four {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid__five {
+    height: 400px;
+    padding-left: 100px;
+}
+input {
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline:none;
+    font-family:'Open Sans', sans-serif ;
+}
+input:hover{ 
+    border: none;
+    border-bottom: 1px solid #EC7979;
+}
+.mid__five_txt {
+    margin-left: 150px;
+    width: 500px;
+    position: absolute;
+    margin-top: -200px;
+    padding-bottom: 200px;
+}
+.mid__five_but {
+    width: 320px;
+    height: 60px;
+    margin-left: 200px;
+    background: #EC7979;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    font-family:'Open Sans', sans-serif ;
+}
+.footer__contact {
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+}
+a {
+    width: 54px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+}
