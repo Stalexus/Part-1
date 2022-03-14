@@ -34,7 +34,6 @@ hr {
     border: 1px solid #EC7979;
 }
 .main__txt, .main__people, .main__contact_us {
-    max-width: 1510px;
     margin-left: 5rem;
     height: 200px;
     display: flex;
