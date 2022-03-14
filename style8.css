@@ -5,7 +5,7 @@ body {
 @media screen and (max-width: 960px) {
     body {
     width: 720px;
-    margin:0
+    margin:0;
 }
     .main__login_but {
         margin-left: 5rem;
@@ -132,7 +132,7 @@ input:hover{
 }
 .footer {
     height: 164px;
-    background-color: #000000;
+    background-color: #000;
 }
 .footer__contact {
     display: flex;
@@ -145,6 +145,6 @@ a {
 }
 .footer__txt {
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
     opacity: 50%;
 }
